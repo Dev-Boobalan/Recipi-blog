@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@900&family=Lora:wght@400;500;600;700&family=Montserrat:wght@900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@900&family=Lora:wght@400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#recipi_body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 234px 0 134px;
+}
+.recipi_head_h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    line-height: 63.98px;
+    font-weight: 700;
+    padding-top: 52pt;
+    padding-bottom: 12pt;
+}
+.recipi_head_para{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500; 
+    font-style: italic;
+    line-height: 17.07px;
+    color: #4F4F4F;
+    padding-right: 100px;
+}
+.recipi_head_div1_para{
+    padding-top: 25px;
+}
+.recipi_head_div1{
+    margin-bottom: 48px;
+}
+
+.recipi_main_subdiv_head{
+    font-family: Playfair Display;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    margin-top: 48px;
+}
+#recipi_main_subdiv_head{
+    margin-top: 0;
+}
+.recipi_main_subdiv_list1_head{
+    font-family: Playfair Display;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin: 32px 0;
+}
+.items{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;    
+}
+.bold{
+    font-weight: 700;
+}
+.italic{
+    font-style: italic;
+    font-weight: 500;
+}
+.recipi_main_subdiv_list2_sublist{
+    list-style: none;
+}
+.box{
+    border: 1px #828282 solid;
+    min-width: 21px;
+    height: 21px;
+    border-radius: 3px;
+    margin-right: 12px;
+}
+.recipi_main_subdiv_list2_sublist_list{
+    display: flex;
+}
+.box_1{
+    border: none;
+    text-align: center;
+    font-size: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #F2994A;
+    min-width: 36px;
+    height: 36px;
+    border-radius: 6px;
+    margin-right: 15px;
+}
+.ol_items{
+    padding-bottom: 11pt;
+}
+p a{
+    text-decoration: none;
+    color: #BDBDBD;
+}
+.recipi_main_subdiv_list3_src{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    color: #BDBDBD;    
+    padding-top: 22pt;
+}
+.recipi_main_subdiv_list3 .recipi_main_subdiv_head{
+    margin-bottom: 23pt;
+}
+.recipi_main_subdiv_2{
+    padding-right: 120px;
+}
+.recipi_main_subdiv2_div_group_para1{
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    color: #BDBDBD;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+.recipi_main_subdiv2_div_group_para2{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+#text_color, #icon_1_color{
+    color: #F2994A;
+}
+.recipi_main_subdiv2{
+    margin-top: 80px;
+        
+}
+.recipi_main_subdiv2_1{
+    max-width: 216px;
+    box-shadow: 1px 1px 3px 1px #888888;
+    border-radius: 8px;
+    padding-bottom: 53px;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.recipi_main_subdiv2_div{
+    display: flex;
+    align-items: center;
+}
+.recipi_main_subdiv2_div .icon_1{
+    font-size: 24px;
+    padding-right: 15px;
+    padding-top: 57px;
+ }
+ .recipi_main_subdiv2_div_group{
+    padding: 0;
+    margin: 0;
+    padding-top: 43pt;
+ }
+ @media only screen and (max-width: 1250px){
+    #recipi_body{
+        
+        margin: 0 200px 0 100px;
+    }
+    .recipi_main_subdiv_2{
+        padding-right: 40px;
+    }
+    
+ }
+ @media only screen and (max-width: 1200px){
+    #recipi_body{
+        
+        margin: 0 150px 0 75px;
+    }
+    .recipi_main_subdiv_2{
+        padding-right: 30px;
+    }
+    
+ }
+ @media only screen and (max-width: 1100px){
+    #recipi_body{
+        
+        margin: 0 100px 0 50px;
+    }
+    .recipi_main_subdiv_2{
+        padding-right: 30px;
+    }
+    .recipi_main_subdiv2_1{
+
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+ }
+
+ @media only screen and (max-width: 990px){
+    #recipi_body{
+        
+        margin: 0 50px 0 20px;
+    }
+    .recipi_main_subdiv_2{
+        padding-right: 30px;
+    }
+    
+ }
+
+ @media only screen and (max-width: 900px){
+    #recipi_body{
+        
+        margin: 0 25px 0 20px;
+    }
+    .recipi_main_subdiv_2{
+        padding-right: 30px;
+    }
+    .recipi_main_subdiv2_1{
+
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+ }
+ @media only screen and (max-width: 850px){
+    #recipi_body{
+        
+        margin: 0 25px 0 20px;
+    }    
+ }
+ @media only screen and (max-width: 767px){
+    #recipi_body{
+        margin: 0 15px 0 10px;
+    }
+    #recipi_main_subdiv2_div_group{
+        padding-top: 10px;
+    }
+    #icon_1_color{
+        padding-top: 10px;
+    }
+    .recipi_main_subdiv{
+        margin: 0 15px 0 20px;
+    }
+    .recipi_main_div{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .recipi_head_para{
+        padding-right: 50px;
+    }
+    div .recipi_main_subdiv2_1{
+        max-width: 100%;
+        box-shadow: none;
+    }
+    .recipi_main_subdiv_list1_head{
+        margin: 20px 0;
+    }
+    .recipi_main_subdiv_list3_src{
+        font-size: 14px;
+    }
+    .recipi_main_subdiv2_div .icon_1{
+        padding-top: 33px;
+     }
+     
+    .recipi_main_subdiv2_div_group{
+        padding: 0;
+        margin: 0;
+        padding-top: 27pt;
+     }   
+ }
+ 
+ @media only screen and (max-width: 550px){
+    #recipi_body{
+        margin: 0 5px 0 10px;
+    }
+    .recipi_main_subdiv{
+        margin: 0 5px 0 10px;
+    }
+    .recipi_main_div{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    div .recipi_main_subdiv2_1{
+        max-width: 100%;
+        box-shadow: none;
+    }
+    .recipi_head_h1{
+        font-size: 24px;
+        line-height: 32px;
+        padding-top: 32pt;
+    }
+    .recipi_head_para{
+        font-size: 12px;
+        line-height: 14.63px;
+        padding-right: 30px;
+    }
+    .recipi_main_subdiv_head{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .recipi_main_subdiv_list1_head{
+        font-size: 16px;
+        line-height: 21px;
+        margin: 13px 0;
+    }
+    .items{
+        font-size: 14px;
+        line-height: 25px;        
+    }
+    section div p{
+        margin-bottom: 4px ;
+    }
+    #recipi_main_subdiv_head{
+        margin-top: 30px;
+    }
+    .recipi_main_subdiv_list3_src{
+        font-size: 12px;
+    }
+    .recipi_main_subdiv2_div .icon_1{
+        font-size: 16px;
+        padding-top: 33px;
+     }
+     .recipi_main_subdiv2_div_group_para1{
+        font-family: Montserrat;
+        font-size: 8px;
+
+    }
+    .recipi_main_subdiv2_div_group_para2{
+        font-family: Montserrat;
+        font-size: 8px;
+    }
+    .recipi_main_subdiv2_div_group{
+        padding: 0;
+        margin: 0;
+        padding-top: 27pt;
+     }
+     .recipi_main_subdiv2_1{
+        padding-bottom: 13px;
+    }  
+ }
